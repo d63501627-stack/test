@@ -6,10 +6,10 @@
 		"mac": "2.2081",
 		"ios": "2.2081"
 	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
+	"id": "$supermod.test",
+	"name": "$chto_to",
+	"version": "$1",
+	"developer": "$danil",
 	"description": "$MOD_DESCRIPTION",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
