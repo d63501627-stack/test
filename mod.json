@@ -1,17 +1,12 @@
 {
-	"geode": "$GEODE_VERSION",
+	"geode": "2.0.0-beta.27",
 	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
+		"android": "2.206",
+		"win": "2.206"
 	},
-	"id": "$supermod.test",
-	"name": "$chto_to",
-	"version": "$1",
-	"developer": "$danil",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+	"id": "my.cool.mod.test",
+	"name": "My First Mod",
+	"developer": "Player",
+	"version": "v1.0.0",
+	"description": "Test mod for Geode"
 }
