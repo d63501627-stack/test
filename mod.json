@@ -1,12 +1,9 @@
 {
-	"geode": "2.0.0-beta.27",
-	"gd": {
-		"android": "2.206",
-		"win": "2.206"
-	},
-	"id": "my.cool.mod.test",
-	"name": "My First Mod",
+	"geode": "3.0.0-beta.1",
+	"gd": "2.206",
+	"id": "my.test.mod",
+	"name": "Test Mod",
 	"developer": "Player",
 	"version": "v1.0.0",
-	"description": "Test mod for Geode"
+	"description": "Testing build"
 }
