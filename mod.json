@@ -1,9 +1,9 @@
 {
     "geode": "3.0.0",
-    "id": "Danil.custom-levels",
-    "version": "v1.0.0",
+    "id": "Whatcfg.custom-levels",
+    "version": "1.0.0",
     "name": "Custom Level List",
     "developer": "Danil",
-    "description": "allows you to add a level to the list of official levels",
+    "description": "allows you to add your own levels to the main menu",
     "early-load": true
 }
