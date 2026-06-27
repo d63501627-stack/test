@@ -7,3 +7,5 @@ add_geode_mod(custom-levels
     SOURCES 
         src/main.cpp
 )
+
+target_link_libraries(custom-levels PRIVATE Geode::Geode)
