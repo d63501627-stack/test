@@ -20,6 +20,6 @@ class $modify(LevelSelectLayer) {
     }
 
     void onMyButton(CCObject* sender) {
-        FLAlertLayer::create("Info", "Кнопка нажата!", "OK")->show();
+        FLAlertLayer::create("Info", "Кнопка работает!", "OK")->show();
     }
 };
