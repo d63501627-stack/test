@@ -1,22 +1,25 @@
 #include <Geode/Geode.hpp>
-#include <Geode/modify/MenuLayer.hpp>
+#include <Geode/modify/LevelSelectLayer.hpp>
 
 using namespace geode::prelude;
 
-// Мы "хукаем" (изменяем) главное меню игры
-class $modify(MenuLayer) {
+class $modify(LevelSelectLayer) {
     bool init() {
-        // Запускаем стандартную инициализацию меню
-        if (!MenuLayer::init()) return false;
+        if (!LevelSelectLayer::init()) return false;
 
-        // Создаем всплывающее окно
-        auto alert = FLAlertLayer::create(
-            "Geode на телефоне",    // Заголовок
-            "Мод успешно собран!",  // Текст
-            "Ура!"                  // Кнопка
-        );
-        alert->show();
+        auto menu = CCMenu::create();
+        menu->setPosition({0, 0});
+        this->addChild(menu);
+
+        auto btnSprite = CCSprite::createWithSpriteFrameName("GJ_plusBtn_001.png");
+        auto btn = CCMenuItemSpriteExtra::create(btnSprite, this, menu_selector(LevelSelectLayer::onMyButton));
+        btn->setPosition({300, 50});
+        menu->addChild(btn);
 
         return true;
+    }
+
+    void onMyButton(CCObject* sender) {
+        FLAlertLayer::create("Info", "Кнопка нажата!", "OK")->show();
     }
 };
