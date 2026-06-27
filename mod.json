@@ -1,8 +1,9 @@
 {
-	"geode": "3.0.0-beta.1",
-	"gd": "2.206",
-	"id": "com.test.myfirstmod",
-	"name": "My Mod",
-	"developer": "User",
-	"version": "v1.0.0"
+    "geode": "2.0.0",
+    "id": "Danil.custom-levels",
+    "version": "v1.0.0",
+    "name": "Custom Level List",
+    "developer": "Danil",
+    "description": "allows you to add a level to the list of official levels",
+    "early-load": true
 }
